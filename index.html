@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт портфолио</title>
+<style>
+*{
+box-sizing:border-box;
+}
+body{
+background-color: blueviolet;    
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    max-width: 1000px;
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    word-break: break-all;
+}
+    
+    .row
+    {
+        margin: 8px-16px;
+    }
+     .row, .row >  .column
+     {
+padding: 8px;
+     }
+.column 
+{
+    float: left;
+    width: 25%;
+}
+.row:after
+{
+    content: "";
+    display: table;
+    clear:both;
+}
+.content
+{
+    padding: 10px;
+    background-color: azure;
+}
+
+img
+{
+    width: 100%;
+}
+@media screen  and (max-width:900px){
+    .column
+    {width: 50%;}
+}
+@media screen and (max-width:600px) {
+        .column
+    {width: 100%;}
+}
+</style>
+</head>
+<body>
+ <section>   
+    <h1>День 4. Frontend и нейросети</h1>
+    <hr> 
+    <h2> Портфолио картинок нейросети</h2> 
+    <div class="row">
+    <div class="column">
+        <div class="content">
+
+            <a target="_blank" href="1.jpg">
+<img src="1.jpg" alt="Нажми">
+
+            </a>
+            <h3> Крутой робот</h3>
+            <p>
+                Боевые роботы — это уже реальность, активно используемая ведущими армиями мира (США, Россия, Китай, Израиль) 
+                для разведки, разминирования, патрулирования и огневой поддержки
+            </p>
+        </div>
+    </div>
+
+ <div class="column">
+        <div class="content">
+
+            <a target="_blank" href="2.jpg">
+<img src="2.jpg" alt="Нажми">
+
+            </a>
+            <h3> Милый робот</h3>
+            <p>
+                «милые» роботы давно перестали быть фантастикой. Сейчас они выполняют функции компаньонов, помощников
+            </p>
+        </div>
+    </div>
+
+
+ <div class="column">
+        <div class="content">
+
+            <a target="_blank" href="3.jpg">
+<img src="3.jpg" alt="Нажми">
+
+            </a>
+            <h3> Весёлый робот</h3>
+            <p>
+                «веселые» роботы — реальность. Современные технологии позволяют им 
+                имитировать эмоции, поддерживать беседу и даже шутить.
+            </p>
+        </div>
+    </div>
+
+
+ <div class="column">
+        <div class="content">
+
+            <a target="_blank" href="4.jpg">
+<img src="4.jpg" alt="Нажми">
+
+            </a>
+            <h3> Высокотехнологичный робот</h3>
+            <p>
+                активно интегрируются в промышленность, 
+                сферу услуг и даже быт. Современная робототехника перешла от простых манипуляторов к автономным системам с ИИ
+            </p>
+        </div>
+    </div>
+    </div>
+
+<div class="content">
+
+            <a target="_blank" href="5.jpg">
+<img src="5.jpg" alt="Нажми">
+
+            </a>
+            <h3> Интересный факт</h3>
+            <p>
+                Слово «робот» было придумано не учёным, а
+                 писателем-фантастом Карелом Чапеком в 1920 году для его пьесы «Р.У.Р.» (Россумские универсальные роботы). 
+            </p>
+        </div>
+</section>
+</body>
+</html>
